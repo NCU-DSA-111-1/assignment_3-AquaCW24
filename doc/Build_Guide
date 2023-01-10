@@ -1,0 +1,3 @@
+Enter the following command to compile source file(make sure your directory is in /src):
+
+make && ./build/main.o
