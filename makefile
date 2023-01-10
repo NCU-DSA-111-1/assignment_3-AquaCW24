@@ -1,7 +1,7 @@
 SOURCES := $(wildcard src/*.c)
 # LIBRARY := $(wildcard src/*.c)
-HUFF := $(wildcard lib/chuffman/*.c)
-ARTH := $(wildcard lib/arth/*.c)
+HUFF := $(wildcard library/huffman/*.c)
+ARTH := $(wildcard library/arth/*.c)
 
 
 all: arth huff main crap
@@ -14,7 +14,7 @@ huff:
 	gcc $(HUFF) -o ./obj/huff.o
 
 crap:
-	gcc ./lib/grepwordgen.c  -g -o ./obj/grepwordgen.o
+	gcc ./library/grepwordgen.c  -g -o ./obj/grepwordgen.o
 
 main:
 	gcc $(SOURCES) -g -o ./obj/main.o
