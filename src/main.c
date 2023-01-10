@@ -15,9 +15,9 @@ int main(){
         system("./obj/arth.o -d ./IO/arith/arith_out ./IO/arith/arith_back.txt");
         puts("------------------------------");
     }
-    puts("\n-----------Huffmann Encoding-----------");
+    puts("\n-----------Huffman Encoding-----------");
     for(int i = 1; i <= ITERATION; i++){
-        printf("Huffmann Approach FILE-%d\n\n", i);
+        printf("Huffman Approach FILE-%d\n\n", i);
         strcpy(str, "\0");
         sprintf(str, "./obj/huff.o -e ./GrepTextFile/File%d.txt -b ./IO/huff/huff_booktable.txt -o ./IO/huff/huff_out.txt", i);
         system(str);

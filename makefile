@@ -17,4 +17,4 @@ crap:
 	gcc ./library/grepwordgen.c  -g -o ./obj/grepwordgen.o
 
 main:
-	gcc $(SOURCES) -g -o ./obj/main.o
+	gcc $(SOURCES) -g -o ./build/main.o
