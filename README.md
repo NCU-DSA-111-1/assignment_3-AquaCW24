@@ -9,7 +9,7 @@ This program will encode each line of an English file and save it as a file, and
 ## Operation
 
 ```
-make && ./obj/main.o
+make && ./build/main.o
 ```
 
 ## Reference
